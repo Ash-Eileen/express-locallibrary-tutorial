@@ -2,6 +2,6 @@
 
 Brushing up on my express knowledge and learning about connecting a database
 
-## Author 
+## Author
 
 Ashley Smith

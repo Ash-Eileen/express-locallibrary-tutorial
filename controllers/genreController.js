@@ -53,7 +53,7 @@ exports.genre_create_post = [
     validator.body('name', 'Genre name required').trim().isLength({ min: 1 }),
     
     // Sanitize (escape) the name field.
-    validator.sanitizeBody('name').escape(),
+    validator.body('name').escape(),
   
     // Process request after validation and sanitization.
     (req, res, next) => {
